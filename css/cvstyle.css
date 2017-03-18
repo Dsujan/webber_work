@@ -1,0 +1,263 @@
+h1,h2,h3,h4,h5,p,body{ 					/*This overrides default margin and padding of some html elements*/
+	margin:0px;
+	padding: 0%;
+}
+header{									/*Makes header Content appear in row.*/
+	background-color:#41B3CD;
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	box-shadow: 7px 2px 15px 12px grey ;
+	
+	
+}
+.logo{
+	width:100%;
+	
+}
+.mbar{
+	width:100%;							/*Starts link items from end of the page*/
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-end;
+	justify-content: space-around;
+	padding-top:8.5%;
+	margin:0px;
+}
+.bar{
+	width: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+    line-height: 17px;
+    text-align:right;
+}
+
+
+.mnote{
+	text-decoration: none;
+	color: white;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	padding:0%;
+}
+.menu{
+	margin:0px;
+	padding:7px;
+	border-radius: 14px;
+	transition: background-color 1s
+}
+.menu:hover{										/*Changes colour during hover*/
+	background-color: #227284;
+}
+footer{
+	background-color: #272727;
+	display: flex;
+	flex-direction: column;				/*Arrange footer content coloumn wise*/
+
+
+}
+.social{
+	padding-left: 40%;
+	width:45%;
+
+}
+.fnote{
+	padding-right: 2%;
+}
+
+.links{
+	display: flex;
+	width:45%;
+	flex-direction: row;
+	justify-content: space-between;		/*Arrange footer links with spacing*/
+	color:white;
+	list-style: none;
+	padding-left: 30%;
+
+}
+.snote{
+	padding-right: 3%;
+}
+.all{
+	width: 100%;
+	padding-top: 1%;
+}
+.text{
+	color:white;
+	padding-top:3px;
+	padding-left:79%;
+	font-size:10pt;
+}
+.fnote{
+	text-decoration: none;
+	color:white;
+
+}
+section{
+	display: flex;
+	flex-direction: row;
+}
+
+.lmain{
+	width:69%;
+	background-image: url(../images/bg.jpg);
+	background-position:left top;
+	background-repeat: repeat;
+	display: flex;
+	flex-direction: column;
+
+}
+.rsub{
+	width:31%;
+	background-color:lightgreen;
+	display: flex;
+	flex-direction: column;
+	box-shadow: -4px -0px 5px 1px grey;
+	padding-bottom: 2%;
+}
+.fdec{
+
+	padding-right:3%;
+	padding-left: 3%;
+
+
+}
+.dec1{
+	background-color: white;
+	padding-top: 35%;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 1px;
+}
+.img_holder{
+	padding-top:10%;
+	padding-left:28%;
+}
+.myself{
+	border: 4px solid white;
+	border-radius:100px;
+	box-shadow:2px 3px 20px 9px grey;
+	transition:2s;
+}
+.myself:hover{
+	transform: rotate(360deg);
+}
+.con_holder{
+	display:flex;
+	flex-direction:row;
+}
+
+.ico{
+	margin:0px;
+	list-style: none;
+	padding-top:5%;
+	padding-left:7%;
+	width:20%;
+	display:flex;
+	flex-direction:column;
+
+	
+}
+.data{
+	padding-top: 6%;
+	list-style: none;
+	width:80%;
+	padding:0%;
+	padding-top:9%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin:0px;
+
+}
+.loc,.ph,.mail{
+	padding-top: 13%;
+}
+.c1{
+padding-bottom:3%;
+}
+
+.ps {width:55%;background-color: yellow; border-radius: 7px;}
+.py {width:40%;background-color: orange; border-radius: 7px;}
+.htm {width: 45%; background-color: #4CAF50; border-radius: 7px;}
+.css {width: 45%; background-color: #2196F3; border-radius: 7px;}
+.C {width: 20%; background-color: #f44336; border-radius: 7px;}
+.jav {width: 6%; background-color:purple; border-radius: 7px;}
+
+.skill_holder{
+	padding-top:9%;
+	padding-left: 6%;
+	padding-right: 5%;
+}
+p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.name{
+	padding-top:5%;
+	padding-left: 3%;
+	font-family: 'Raleway', sans-serif;
+	font-size:3em;
+	margin:12px;
+}
+.edu,.sclass{
+	font-family: 'Raleway', sans-serif;
+	padding-top:3%;
+	padding-left: 3%;
+	display: flex;
+	flex-direction: row;
+
+}
+.q1{
+	display: flex;
+	flex-direction: row;
+	padding-top: 5%;
+
+}
+.q2{
+display: flex;
+flex-direction: row;
+padding-top: 2%;
+
+}
+.det{
+	width:30%;
+	padding-top: 3%;
+
+}
+.exp{
+	width:70%;
+	padding-top: 3%;
+	padding-left: 2%;
+
+}
+.rcol{
+	width:50%;
+	padding-left: 5%;
+}
+.sclass{
+	padding-top:8%;
+}
+.q3{
+	display: flex;
+	flex-direction: row;
+
+}
+.lcol1{
+	width:60%;
+}
+.q3,.na{
+	padding-top: 3%;
+}
+.name,.edum{
+	background-color:orange;
+
+}
+.eduml{
+	width:48%;
+	background-color: orange;
+}
+.edump{
+	width:25%;
+	background-color: orange;
+}
