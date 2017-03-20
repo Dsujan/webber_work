@@ -1,13 +1,13 @@
 h1,h2,h3,h4,h5,p,body{ 					/*This overrides default margin and padding of some html elements*/
 	margin:0px;
-	padding: 0px;
+	padding: 0%;
 }
 header{									/*Makes header Content appear in row.*/
 	background-color:#41B3CD;
 	display: flex;
 	flex-direction: row;
 	width:100%;
-	box-shadow: 2px 15px 12px grey ;
+	box-shadow: 1px 2px 15px 0px grey ;
 	
 	
 }
@@ -16,10 +16,10 @@ header{									/*Makes header Content appear in row.*/
 	
 }
 .limg{
-	 width:150px;
-	 height:150px;
-}
+	height: 150px;
+	width: 150px;
 
+}
 .mbar{
 	width:100%;							/*Starts link items from end of the page*/
 	list-style: none;
@@ -30,6 +30,13 @@ header{									/*Makes header Content appear in row.*/
 	padding-top:8.5%;
 	margin:0px;
 }
+.bar{
+	width: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+    line-height: 17px;
+    text-align:right;
+}
 
 
 .mnote{
@@ -37,7 +44,7 @@ header{									/*Makes header Content appear in row.*/
 	color: white;
 	font-family: 'Josefin Slab', serif;
 	font-size: 1.5em;
-	padding:0px;
+	padding:0%;
 }
 .menu{
 	margin:0px;
@@ -47,54 +54,6 @@ header{									/*Makes header Content appear in row.*/
 }
 .menu:hover{										/*Changes colour during hover*/
 	background-color: #227284;
-	
-}
-section{
-	background-image: url(../images/bg.jpg);
-	background-position:left top;
-	background-repeat: repeat;
-	color:black;
-	padding-top:120px;
-	display:flex;
-	flex-direction:column;
-	width: 100%;
-
-	
-	
-	
-}
-.photo{						 /*Gives shadow to the image and round look defining the transiton time interval*/
-	border: 4px solid white;
-	border-radius:100px;
-	box-shadow:2px 3px 20px 9px grey;
-	transition:2s;
-	height: 200px;
-	width:200px;
-}
-.pics{										
-	display: flex;
-	flex-direction: row;					/*Arrange images in row*/
-	justify-content: space-around;
-	
-}
-.photo:hover{								/*Increases image size during hover*/
-	transform:scale(1.2,1.2);
-}
-.des{										
-	display: flex;	
-	flex-direction: row;				/*Arrange rescription in row*/
-	justify-content: space-around;
-	padding-top: 55px;
-	font-family: 'Tillana', cursive;
-	font-size: 12pt;
-	padding-bottom: 2%;
-}
-.a{
-	width:30%;
-	padding-left:9%;
-	padding-right: 9%;
-	text-align: justify;
-
 }
 footer{
 	background-color: #272727;
@@ -124,8 +83,8 @@ footer{
 }
 .snote{
 	padding-right: 3%;
-	height: 50px;
 	width: 50px;
+	height: 50px;
 }
 .all{
 	width: 100%;
@@ -140,5 +99,52 @@ footer{
 .fnote{
 	text-decoration: none;
 	color:white;
+
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content:space-around;
+	border-radius:35px;
+	background-color:#F7F7F2;
+	box-shadow: 1px 2px 20px 0px grey;
+
+}
+.conform{
+	padding-left:22%;
+	margin-top: 33px;
+	padding-top:3%;
+	width:50%;
+	font-size:1.1em;
+	margin-bottom:33px;
+
+}
+	
+.label{
+	padding:4%;
+	width:25%;
+
+}
+.box{
+	padding:4%;
+	
+	width:50%;
+}
+
+input, select,textarea{
+width: 100%;
+resize: none;
+}
+.socform{
+	width:50%;
+}
+.abc{
+	width:10%;
+}
+.abc1{
+width:25%;
+margin:6px 1% 5px 75%; 
 
 }

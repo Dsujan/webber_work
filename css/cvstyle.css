@@ -15,6 +15,10 @@ header{									/*Makes header Content appear in row.*/
 	width:100%;
 	
 }
+.limg{
+	width:150px;
+	height: 150px;
+}
 .mbar{
 	width:100%;							/*Starts link items from end of the page*/
 	list-style: none;
@@ -78,6 +82,8 @@ footer{
 }
 .snote{
 	padding-right: 3%;
+	height: 50px;
+	width:50px;
 }
 .all{
 	width: 100%;
@@ -138,6 +144,8 @@ section{
 	border-radius:100px;
 	box-shadow:2px 3px 20px 9px grey;
 	transition:2s;
+	width: 200px;
+	height: 200px;
 }
 .myself:hover{
 	transform: rotate(360deg);
@@ -145,6 +153,10 @@ section{
 .con_holder{
 	display:flex;
 	flex-direction:row;
+}
+.loc1,.loc2,.loc3{
+	width:35px;
+	height:35px;
 }
 
 .ico{
