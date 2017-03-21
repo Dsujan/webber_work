@@ -144,7 +144,7 @@ resize: none;
 	width:10%;
 }
 .abc1{
-width:25%;
+width:31%;
 margin:6px 1% 5px 75%; 
 
 }
@@ -156,6 +156,8 @@ margin:6px 1% 5px 75%;
 	.social{display:flex;flex-direction:column;}
 	.text{padding:0%;}
 	.conform{width:100%;padding:0%;}
-	.label{width: 50%;}
+	.label,.box{width: 50%;padding-top:12%}
 	input,select,textarea{width: 100%;}
-	.abc1{margin:0%;width:45%;}
+	.abc1{margin:0%;width:50%;}
+	.un{font-size:9pt;margin-right:-10px;}
+}

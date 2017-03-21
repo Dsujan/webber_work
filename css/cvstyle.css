@@ -282,6 +282,11 @@ padding-top: 2%;
 	.text{padding:0%;}
 	section{display: flex;flex-direction:column;}
 	.edu,.sclass{display: flex;flex-direction: column;padding:0%;}
-	.lmain,.rsub,.exp{width:100%;}
-	.lcol,.rcol{font-size:10pt;width:100%}
+	.lmain,.rsub,.exp{width:100%;padding:0%;}
+	.lcol{font-size:10pt;width:30%;}
+	.rcol{font-size:10pt;width:80%;}
+	.lcol1,.det,.eduml,.edump{width:100%;margin-top:12px;}
+	.name{font-size:1.2em;padding-bottom:4%;padding-left:10%;}
 }
+
+	
