@@ -273,3 +273,15 @@ padding-top: 2%;
 	width:25%;
 	background-color: orange;
 }
+@media all and (max-width:600px){
+	.logo{width:100%;}
+	.mbar{width:98.5%;flex-direction: column;padding: 0%;border:1px solid white;}
+	header{display:flex;flex-direction:column;}
+	.photo{margin-left:19px;}
+	.social{display:flex;flex-direction:column;}
+	.text{padding:0%;}
+	section{display: flex;flex-direction:column;}
+	.edu,.sclass{display: flex;flex-direction: column;padding:0%;}
+	.lmain,.rsub,.exp{width:100%;}
+	.lcol,.rcol{font-size:10pt;width:100%}
+}

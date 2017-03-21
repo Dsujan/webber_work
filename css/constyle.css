@@ -148,3 +148,14 @@ width:25%;
 margin:6px 1% 5px 75%; 
 
 }
+@media all and (max-width:600px){
+	.logo{width:100%;}
+	.mbar{width:98.5%;flex-direction: column;padding: 0%;border:1px solid white;}
+	header{display:flex;flex-direction:column;}
+	.photo{margin-left:19px;}
+	.social{display:flex;flex-direction:column;}
+	.text{padding:0%;}
+	.conform{width:100%;padding:0%;}
+	.label{width: 50%;}
+	input,select,textarea{width: 100%;}
+	.abc1{margin:0%;width:45%;}

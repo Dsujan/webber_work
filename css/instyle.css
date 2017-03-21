@@ -25,7 +25,6 @@ header{									/*Makes header Content appear in row.*/
 	list-style: none;
 	display: flex;
 	flex-direction:row;
-	justify-content: flex-end;
 	justify-content: space-around;
 	padding-top:8.5%;
 	margin:0px;
@@ -54,9 +53,14 @@ section{
 	background-position:left top;
 	background-repeat: repeat;
 	color:black;
+	font-size: 1.1em;
+	font-family: 'Tillana', cursive;
 	padding-top:120px;
+	padding-bottom:5%;
 	display:flex;
-	flex-direction:column;
+	text-align: justify;
+	flex-direction:row;
+	justify-content:space-around;
 	width: 100%;
 
 	
@@ -71,26 +75,18 @@ section{
 	height: 200px;
 	width:200px;
 }
-.pics{										
-	display: flex;
-	flex-direction: row;					/*Arrange images in row*/
-	justify-content: space-around;
+.pics1{										
+	width:20%;
 	
 }
 .photo:hover{								/*Increases image size during hover*/
 	transform:scale(1.2,1.2);
 }
-.des{										
-	display: flex;	
-	flex-direction: row;				/*Arrange rescription in row*/
-	justify-content: space-around;
-	padding-top: 55px;
-	font-family: 'Tillana', cursive;
-	font-size: 12pt;
-	padding-bottom: 2%;
+
 }
 .a{
-	width:30%;
+	width:100%;
+	margin-top: 28px;
 	padding-left:9%;
 	padding-right: 9%;
 	text-align: justify;
@@ -140,5 +136,23 @@ footer{
 .fnote{
 	text-decoration: none;
 	color:white;
+
+}
+
+
+@media all and (max-width:800px){
+	.logo{width:100%;}
+	.mbar{width:98.5%;flex-direction:column;padding: 0%;border:2px solid white;}
+	header{display:flex;flex-direction:column;}
+	.photo{margin-left:18px;}
+	.social{display:flex;flex-direction:column;}
+	.text{padding:0%;}
+	.pics1{width:100%;align-content: : center;}
+	section{display:flex;flex-direction: column;}
+	.a{margin-top:20px;margin-left:12px;margin-right:12px;margin-bottom:20px;}
+	
+
+	
+
 
 }

@@ -133,3 +133,15 @@ section{
 	width:150px;
 
 }
+@media all and (max-width:800px){
+	.logo{width:100%;}
+	.mbar{width:98.5%;flex-direction: column;padding: 0%;border:1px solid white;}
+	header{display:flex;flex-direction:column;}
+	.photo{margin-left:19px;}
+	.social{display:flex;flex-direction:column;}
+	.text{padding:0%;}
+	.nullholder{display: none;}
+	.holder{width:100%;text-align:center;margin-left:4px;margin-right:4px;}
+	.imgholder{padding-left:3%;}
+	.bio{text-align: justify;}
+}
