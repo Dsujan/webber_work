@@ -2,29 +2,31 @@ h1,h2,h3,h4,h5,p,body{ 					/*This overrides default margin and padding of some 
 	margin:0px;
 	padding: 0px;
 }
+
 header{									/*Makes header Content appear in row.*/
 	background-color:#41B3CD;
 	display: flex;
 	flex-direction: row;
 	width:100%;
 	box-shadow: 2px 15px 12px grey ;
-	
-	
 }
+
 .logo{
 	width:100%;
 	
 }
-.limg{
+
+.limg{ /*resize image*/
 	 width:150px;
 	 height:150px;
 }
 
 .mbar{
-	width:100%;							/*Starts link items from end of the page*/
+	width:100%;							
 	list-style: none;
 	display: flex;
 	flex-direction:row;
+	/*Starts link items from end of the page*/
 	justify-content: space-around;
 	padding-top:8.5%;
 	margin:0px;
@@ -34,24 +36,32 @@ header{									/*Makes header Content appear in row.*/
 .mnote{
 	text-decoration: none;
 	color: white;
+	/*google font*/
 	font-family: 'Josefin Slab', serif;
 	font-size: 1.5em;
 	padding:0px;
 }
+
 .menu{
 	margin:0px;
 	padding:7px;
 	border-radius: 14px;
+	/*gives time for the transition for background colour*/
 	transition: background-color 1s
 }
-.menu:hover{										/*Changes colour during hover*/
+
+.menu:hover{
+	/*Changes colour during hover*/										
 	background-color: #227284;
 	
 }
+
 section{
-	background-image: url(../images/bg.jpg);
-	background-position:left top;
-	background-repeat: repeat;
+	/*sets  whole background into an image by repeating a image*/
+	background-image: url(../images/bg.jpg); 
+	background-position:left top;		
+	background-repeat: repeat;	
+	/*end of code for background image*/			
 	color:black;
 	font-size: 1.1em;
 	font-family: 'Tillana', cursive;
@@ -63,11 +73,10 @@ section{
 	justify-content:space-around;
 	width: 100%;
 
-	
-	
-	
 }
-.photo{						 /*Gives shadow to the image and round look defining the transiton time interval*/
+
+.photo{
+	/*Gives shadow to the image and round look defining the transiton time interval*/
 	border: 4px solid white;
 	border-radius:100px;
 	box-shadow:2px 3px 20px 9px grey;
@@ -75,16 +84,20 @@ section{
 	height: 200px;
 	width:200px;
 }
+
 .pics1{										
 	width:20%;
 	
 }
-.photo:hover{								/*Increases image size during hover*/
+
+.photo:hover{
+	/*Increases image size during hover*/								
 	transform:scale(1.2,1.2);
 }
 
-}
+
 .a{
+	/*Gives proper position to the link items*/
 	width:100%;
 	margin-top: 28px;
 	padding-left:9%;
@@ -92,11 +105,12 @@ section{
 	text-align: justify;
 
 }
+
 footer{
+	/*Arrange footer content coloumn wise*/
 	background-color: #272727;
 	display: flex;
-	flex-direction: column;				/*Arrange footer content coloumn wise*/
-
+	flex-direction: column;				
 
 }
 .social{
@@ -104,6 +118,7 @@ footer{
 	width:45%;
 
 }
+
 .fnote{
 	padding-right: 2%;
 }
@@ -112,7 +127,8 @@ footer{
 	display: flex;
 	width:45%;
 	flex-direction: row;
-	justify-content: space-between;		/*Arrange footer links with spacing*/
+	/*Arrange footer links with spacing*/
+	justify-content: space-between;		
 	color:white;
 	list-style: none;
 	padding-left: 30%;
@@ -123,23 +139,27 @@ footer{
 	height: 50px;
 	width: 50px;
 }
+
 .all{
 	width: 100%;
 	padding-top: 1%;
 }
+
 .text{
 	color:white;
 	padding-top:3px;
 	padding-left:79%;
 	font-size:10pt;
 }
+
 .fnote{
 	text-decoration: none;
 	color:white;
 
 }
 
-
+/*When the device width is reduced to 800px header fills up the width 
+and displays other contents in columns respectively.All code for mobile responsiveness are written below*/
 @media all and (max-width:800px){
 	.logo{width:100%;}
 	.mbar{width:98.5%;flex-direction:column;padding: 0%;border:2px solid white;}
@@ -147,7 +167,7 @@ footer{
 	.photo{margin-left:18px;}
 	.social{display:flex;flex-direction:column;}
 	.text{padding:0%;}
-	.pics1{width:100%;align-content: : center;}
+	.pics1{width:70%;}
 	section{display:flex;flex-direction: column;}
 	.a{margin-top:20px;margin-left:12px;margin-right:12px;margin-bottom:20px;}
 	

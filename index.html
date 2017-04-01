@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--tag to define html5-->
 <html>
 	<head>
 		<!--Enables unicode feature if any-->
 		<meta charset="utf-8"> <!--Enables unicode feature if any-->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!--Makes total width equal to device width for mobile responsive.-->
 		<title>Welcome</title>
+		<!--adds icon of the page on the tab button-->
+		<link rel="icon" href="images/favicon.ico">
+		<!--imports css stylesheet-->
 		<link rel="stylesheet" href=css/instyle.css>
 		<!--imports google font-->
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
@@ -12,10 +16,8 @@
 	</head>
 	<body>
 		<header>
-
-			<div class="logo"> 
-				<img class="limg" src=images/logo.png alt="logo">
-
+			<div class="logo"><!--Holds the logo image in the header-->
+				<a href=index.html><img class="limg" src=images/logo.gif alt="logo"></a>
 			</div>
 
 			<!--This is the menubar content -->
@@ -33,14 +35,14 @@
 		<section> 
 			<!--It holds images for the main content-->
 			<div class="pics1">
-				<a href="index.html"><img class="photo" src = "images/my.jpg" alt="My photo"></a>
+				<a href="cv.html"><img class="photo" src = "images/my.jpg" alt="My photo"></a>
 				<p class="a">
 					Hello! This is Sujan Dulal.<br>
 					You can view my cv here
 				</p>
 			</div>
 			<div class="pics1">
-				<a href="cv.html"><img class="photo" src = "images/bio.jpg" alt="bio page"></a>
+				<a href="bio.html"><img class="photo" src = "images/bio.jpg" alt="bio page"></a>
 				<p class="a">
 					Coding is my passion.<br>
 					If you want to know more about me.<br>
@@ -53,32 +55,31 @@
 					Contact me if you need hand in web design.<br>
 					I can be there to help you out.
 				</p>
-								
 			</div>
 
 		</section>
 
 		<footer>
-		<div class="all">
-			<!--links to social medias-->
-			<div class="social">
-				<a href=http://www.facebook.com><img class="snote" src =images/facebook.png alt="facebook"></a>
-				<a href=http://www.viber.com><img class="snote" src =images/viber.png  alt="viber"></a>
-				<a href=http://www.linkedin.com><img class="snote" src =images/linkedin.png  alt="linkedin"></a>
-				<a href=http://www.skype.com><img class="snote" src =images/skype.png  alt="skype"></a>
+			<div class="all">
+				<!--links to social medias-->
+				<div class="social">
+					<a href=http://www.facebook.com><img class="snote" src =images/facebook.gif alt="facebook"></a>
+					<a href=http://www.viber.com><img class="snote" src =images/viber.gif  alt="viber"></a>
+					<a href=http://www.linkedin.com><img class="snote" src =images/linkedin.gif  alt="linkedin"></a>
+					<a href=http://www.skype.com><img class="snote" src =images/skype.gif  alt="skype"></a>
+				</div>
+				<ul class="links">
+				<!--All links to other pages are linked in the footer-->
+					<li><a class="fnote" href="index.html">Home</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="cv.html">CV</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="bio.html">Bio</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="contact.html">Conatct</a></li>
+				</ul>
 			</div>
-			<ul class="links">
-				<li><a class="fnote" href="index.html">Home</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="cv.html">CV</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="bio.html">Bio</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="contact.html">Conatct</a></li>
-			</ul>
-			
-		</div>
-		<p class="text">Copyright © 2017 Sujan Dulal. All rights reserved.</p>
+			<p class="text">Copyright © 2017 Sujan Dulal. All rights reserved.</p>
 		</footer>
 	</body>
 </html>

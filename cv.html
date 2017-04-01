@@ -1,45 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--tag to define html5-->
 <html>
 	<head>
 		<!--Enables unicode feature if any-->
-		<meta charset="utf-8"> <!--Enables unicode feature if any-->
+		<meta charset="utf-8">
+		<!--Makes total width equal to device width for mobile responsive.-->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Welcome</title>
+		<title>My CV</title>
+		<!--adds icon of the page on the tab button-->
+		<link rel="icon" href="images/favicon.ico">
+		<!--imports css stylesheet-->
 		<link rel="stylesheet" type="text/css" href=css/cvstyle.css>
 		<!--imports google font-->
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 
-			<div class="logo"> 
-				<img class="limg" src=images/logo.png width=150 height=150 alt="logo">
-
+			<div class="logo"><!--Holds the logo image in the header-->
+				<a href=index.html><img class="limg" src=images/logo.gif alt="logo"></a>
 			</div>
 
-			<!--This is the menubar content -->
-				<ul class=mbar>
-					<li class="menu"> <a class="mnote" href = index.html> Home</a></li>
-					<li class="menu"> <a class="mnote" href = "bio.html">My Bio</a></li>
-					<li class="menu"> <a  class="mnote" href = "cv.html">My CV</a></li>
-					<li class="menu"> <a class="mnote" href="contact.html">Contact</a></li>
-				</ul>
-				
-			
-
+				<!--This is the menubar content -->
+			<ul class=mbar>
+				<li class="menu"> <a class="mnote" href = index.html> Home</a></li>
+				<li class="menu"> <a class="mnote" href = "bio.html">My Bio</a></li>
+				<li class="menu"> <a  class="mnote" href = "cv.html">My CV</a></li>
+				<li class="menu"> <a class="mnote" href="contact.html">Contact</a></li>
+			</ul>
 		</header>
 
 		<section>
 
-			<div class="lmain">
+			<div class="lmain"><!--left section which holds all cv details-->
 				<article class="top_name">
 					<h2 class="name">Curriculum Vitae<br></h2>
 				</article>
 
 				<article class="edu">
-
 					<article class="det">
 						<h2 class="edum">Personal Details</h2>
 						<article class="q1">
@@ -95,20 +93,21 @@
 				</article>
 
 				<article class="con_holder">
-					<ul class="ico">
-						<li class="loc"><img class="loc1" src=images/gps.png alt="location"></li>
-						<li class="ph"><img class="loc2" src=images/phone.png alt="Phone"></li>
-						<li class="mail"><img class="loc3" src=images/email.png alt="mail"></li>
+					<ul class="ico"><!--contact icons are listed here-->
+						<li class="loc"><img class="loc1" src=images/gps.gif alt="location"></li>
+						<li class="ph"><img class="loc2" src=images/phone.gif alt="Phone"></li>
+						<li class="mail"><img class="loc3" src=images/email.gif alt="mail"></li>
 					</ul>
-						<ul class="data">
-							<li class="a1">Kathmandu, Nepal</li>
-							<li class="b1">+97798XXXXXXX</li>
-							<li class="c1">Dllsujan@gmail.com</li>
-						</ul>
+					<ul class="data"><!--contact details are listed-->
+						<li class="a1">Kathmandu, Nepal</li>
+						<li class="b1">+97798XXXXXXX</li>
+						<li class="c1">Dllsujan@gmail.com</li>
+					</ul>
 
 				</article>
 				<article class="skill_holder">
-				<h2>My Skills</h2>
+				<!--This holds divs to design skill bars-->
+					<h2>My Skills</h2>
 					<p>Photoshop</p>
 					<article class="bar">
 						<article class="ps">55%</article>
@@ -135,60 +134,37 @@
 					<article class="bar">
 						<article class="jav">6%</article>
 					</article>
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 				</article>
-				<article class="ldec">
-				<article class="dec2">
-				</article>
-				</article>
+				
+				
 			</div>
 			
 
 		</section>
 		<footer>
-		<div class="all">
-			<!--links to social medias-->
-			<div class="social">
-				<a href=http://www.facebook.com><img class="snote" src =images/facebook.png alt="facebook"></a>
-				<a href=http://www.viber.com><img class="snote" src =images/viber.png  alt="viber"></a>
-				<a href=http://www.linkedin.com><img class="snote" src =images/linkedin.png  alt="linkedin"></a>
-				<a href=http://www.skype.com><img class="snote" src =images/skype.png height=50 width=50 alt="skype"></a>
-			</div>
-			<ul class="links">
-				<li><a class="fnote" href="index.html">Home</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="cv.html">CV</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="bio.html">Bio</a></li>
-				<li>|</li>
-				<li><a class="fnote" href="contact.html">Conatct</a></li>
-			</ul>
+			<div class="all">
+				<!--links to social medias-->
+				<div class="social">
+					<a href=http://www.facebook.com><img class="snote" src =images/facebook.gif alt="facebook"></a>
+					<a href=http://www.viber.com><img class="snote" src =images/viber.gif  alt="viber"></a>
+					<a href=http://www.linkedin.com><img class="snote" src =images/linkedin.gif  alt="linkedin"></a>
+					<a href=http://www.skype.com><img class="snote" src =images/skype.gif height=50 width=50 alt="skype"></a>
+				</div>
+				<ul class="links">
+				<!--All links to other pages are linked in the footer-->
+					<li><a class="fnote" href="index.html">Home</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="cv.html">CV</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="bio.html">Bio</a></li>
+					<li>|</li>
+					<li><a class="fnote" href="contact.html">Conatct</a></li>
+				</ul>
 			
-			<div class="copyright">
+				<div class="copyright">
+				</div>
 			</div>
-		</div>
-		<p class="text">Copyright © 2017 Sujan Dulal. All rights reserved.</p>
+			<p class="text">Copyright © 2017 Sujan Dulal. All rights reserved.</p>
 		</footer>
 	</body>
 </html>
