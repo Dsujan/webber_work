@@ -4,11 +4,11 @@ h1,h2,h3,h4,h5,p,body{ 					/*This overrides default margin and padding of some 
 }
 
 header{									/*Makes header Content appear in row.*/
-	background-color:#41B3CD;
+	background-color:#1ABC9C;
 	display: flex;
 	flex-direction: row;
 	width:100%;
-	box-shadow: 2px 15px 12px grey ;
+	
 }
 
 .logo{
@@ -52,7 +52,7 @@ header{									/*Makes header Content appear in row.*/
 
 .menu:hover{
 	/*Changes colour during hover*/										
-	background-color: #227284;
+	background-color:#0c7d67;
 	
 }
 
