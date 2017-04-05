@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,p,body{ 					/*This overrides default margin and padding of some html elements*/
+h1,h2,h3,h4,h5,p,body{ /*This overrides default margin and padding of some html elements*/
 	margin:0px;
 	padding: 0%;
 }
@@ -9,9 +9,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	width:100%;
-	
-	
-	
+
 }
 
 .logo{
@@ -235,7 +233,7 @@ padding-bottom:3%;
 	padding-top:9%;
 	padding-left: 6%;
 	padding-right: 5%;
-}
+} /* (w3schools,2017)*/
 
 p{
 	margin-top: 3px;
@@ -340,4 +338,7 @@ All code for mobile responsiveness are written below*/
 	.name{font-size:1.2em;padding-bottom:4%;padding-left:10%;}
 }
 
-	
+/*Rference
+ w3schools. 2017. How To Create a Skill Bar CSS. [ONLINE]
+ Available at: https://www.w3schools.com/howto/howto_css_skill_bar.asp. [Accessed 19 March 2017].
+*/
