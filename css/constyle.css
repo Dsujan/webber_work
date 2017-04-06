@@ -1,3 +1,5 @@
+/*UNI ID : 16418508*/
+/*Sujan Dulal*/
 h1,h2,h3,h4,h5,p,body{ /*This overrides default margin and padding of some html elements*/
 	margin:0px;
 	padding: 0%;
@@ -156,9 +158,12 @@ form{
 }
 
 input, select,textarea{
-width: 100%;
-/*restricts users from resizing the textbox*/
-resize: none;
+	/*gives Curved look to the boxes*/
+	border-radius: 6px;
+	width: 100%;
+	padding:3%;
+	/*restricts users from resizing the textbox*/
+	resize: none;
 }
 
 .socform{
